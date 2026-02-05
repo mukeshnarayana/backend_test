@@ -1,4 +1,4 @@
 {
-    "ext" : ".js,.mjs,.json,.yaml",
-    "exec": "node server.js"
+    "ext": ".js,.mjs,.json,.yaml,.env",
+    "exec": "node"
 }
