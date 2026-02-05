@@ -22,7 +22,9 @@ console.log(`swagger running port http://localhost:${PORT}/api-docs`)
 app.use('/workers', workroute)
 app.use('/menu', menurouter)
 
-
+app.get("/", (req, res) => {
+  res.send("EC2 backend is running");
+});
 
 
 
